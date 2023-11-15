@@ -7,3 +7,6 @@ const double PI = 3.14159265358979323846;
 double calcularArea(double radio) {
     return PI * pow(radio, 2);
 }
+double calcularPerimetro(double radio) {
+    return 2 * PI * radio;
+}
