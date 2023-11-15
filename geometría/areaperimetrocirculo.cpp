@@ -10,3 +10,8 @@ double calcularArea(double radio) {
 double calcularPerimetro(double radio) {
     return 2 * PI * radio;
 }
+int main() {
+    // Solicitar al usuario el radio del círculo
+    double radio;
+    std::cout << "Ingrese el radio del circulo: ";
+    std::cin >> radio;
