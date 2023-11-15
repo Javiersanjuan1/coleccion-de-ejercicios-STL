@@ -7,3 +7,7 @@ namespace Matematicas {
         return a - b;
     }
 }
+int main() {
+    // Uso de las funciones del espacio de nombres Matematicas
+    double num1 = 10.5;
+    double num2 = 5.3;
