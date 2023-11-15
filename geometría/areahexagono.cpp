@@ -16,3 +16,9 @@ int main() {
         std::cerr << "Error: La longitud del lado debe ser un número positivo." << std::endl;
         return 1; // Salir con código de error
     }
+    // Calcular y mostrar el área del hexágono
+    double area = calcularAreaHexagono(longitudLado);
+    std::cout << "El area del hexagono con longitud de lado " << longitudLado << " es: " << area << std::endl;
+
+    return 0;
+}
