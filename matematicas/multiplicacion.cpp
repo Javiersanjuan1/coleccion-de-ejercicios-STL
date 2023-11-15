@@ -15,3 +15,5 @@ int main() {
     // Llamada a la función multiplicacion
     double resultadoMultiplicacion = Matematicas::multiplicacion(num1, num2);
     std::cout << "Multiplicacion: " << num1 << " * " << num2 << " = " << resultadoMultiplicacion << std::endl;
+    return 0;
+}
