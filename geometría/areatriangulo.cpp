@@ -13,3 +13,14 @@ int main() {
 
     std::cout << "Ingrese la altura del triangulo: ";
     std::cin >> altura;
+    if (base > 0 && altura > 0) {
+        // Calcular el área y mostrar el resultado
+        double area = calcularAreaTriangulo(base, altura);
+        std::cout << "El area del triangulo es: " << area << std::endl;
+    } else {
+        // Mostrar un mensaje de error si la base o la altura son no positivas
+        std::cerr << "Error: La base y la altura deben ser valores positivos." << std::endl;
+    }
+
+    return 0;
+}
