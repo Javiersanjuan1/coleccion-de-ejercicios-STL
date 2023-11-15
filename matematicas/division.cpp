@@ -14,6 +14,10 @@ namespace Matematicas {//
         }
     }
 }
+int main() {
+    // Uso de las funciones del espacio de nombres Matematicas
+    double num1 = 10.5;
+    double num2 = 5.0; // Cambié num2 a 5.0 para evitar la división por cero en el ejemplo
 
 // Created by javier san juan on 15/11/2023.
 //
