@@ -6,3 +6,6 @@ const double velocidad_luz = 299792458; // en metros por segundo
 double calcularEnergia(double masa) {
     return masa * std::pow(velocidad_luz, 2);
 }
+int main() {
+    // Ejemplo de uso
+    double masa;
