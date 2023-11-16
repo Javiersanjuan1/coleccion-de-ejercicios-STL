@@ -11,3 +11,9 @@ int main() {
     double masa;
     std::cout << "Ingrese la masa (en kilogramos): ";
     std::cin >> masa;
+    double energia = calcularEnergia(masa);
+
+    std::cout << "La energía correspondiente es: " << energia << " joules" << std::endl;
+
+    return 0;
+}
