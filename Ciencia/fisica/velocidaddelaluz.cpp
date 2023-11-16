@@ -9,3 +9,5 @@ double calcularEnergia(double masa) {
 int main() {
     // Ejemplo de uso
     double masa;
+    std::cout << "Ingrese la masa (en kilogramos): ";
+    std::cin >> masa;
