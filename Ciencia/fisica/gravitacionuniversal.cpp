@@ -17,3 +17,9 @@ int main() {
 
     std::cout << "Ingrese la distancia entre los objetos (en metros): ";
     std::cin >> distancia;
+    double fuerza = calcularFuerzaGravitatoria(masa1, masa2, distancia);
+
+    std::cout << "La fuerza gravitatoria entre los objetos es: " << fuerza << " newtons" << std::endl;
+
+    return 0;
+}
